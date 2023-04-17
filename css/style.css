@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+}
+
+form {
+    margin-inline: auto;
+    text-align: center;
+}
+
+.input {
+    margin: 2rem 1rem;
+}
+
+.risultato {
+    font-size: 1.5rem;
+}
+
+#output {
+    font-weight: bold;
+    color: red;
+}

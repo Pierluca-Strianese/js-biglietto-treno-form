@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Biglietto del treno form</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h1> CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+	<form>
+		
+		<div class="input">
+			<label for="input-distance">Distanza da percorrere (in km):</label>
+			<input type="number" name="distance" id="input-distance" min="0">
+		</div>
+		<div class="input">
+			<label for="input-age">Età passeggero:</label>
+			<input type="number" name="age" id="input-age">
+		</div>
+		<div class="input">
+			<button type="submit" class="btn btn-calc">Calcola</button>
+			<button type="button" class="btn btn-reset">Reset</button>
+		</div>
+
+		<div class="risultato">
+			Il prezzo del biglietto è: <span id="output"></span> €
+		</div>
+	</form>
+	
+	<script src="js/script.js"></script>
+</body>
+</html>
